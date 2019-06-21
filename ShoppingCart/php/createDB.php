@@ -28,7 +28,7 @@ class CreateDB{
         if(!$this->con){
             die('Connection Error'). mysqli_connect_error();
         }else{
-            echo "Connection established succesfully";
+             //echo "Connection established succesfully";Just to check the connection at first
         }
         $sql="CREATE DATABASE IF NOT EXISTS $dbname";
         //sql to create new table
